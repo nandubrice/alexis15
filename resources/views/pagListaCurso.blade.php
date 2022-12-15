@@ -18,31 +18,37 @@
         
         @error('denCur')
             <div class="alert alert-danger">
-                El código es requerido
+                La Denominacion del curso es requerido
+            </div>
+        @enderror
+
+        @error('hrsCur')
+            <div class="alert alert-danger">
+                La Horas del curso es requerido 
             </div>
         @enderror
 
         @error('creCur')
             <div class="alert alert-danger">
-                El nombre es requerido 
+                El Creditos de curso es requerido 
             </div>
         @enderror
 
         @error('plaCur')
             <div class="alert alert-danger">
-                El apellido es requerido 
+                El Año de plan de estudios es requerido 
             </div>
         @enderror
 
         @error('tipCur')
             <div class="alert alert-danger">
-                La fecha es requerido 
+                El Tipo es requerido 
             </div>
         @enderror
 
         @error('estCur')
             <div class="alert alert-danger">
-                El turno es requerido 
+                El Estado de curso es requerido 
             </div>
         @enderror
 

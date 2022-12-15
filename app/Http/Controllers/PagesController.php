@@ -161,7 +161,6 @@ class PagesController extends Controller
         $xUpdateCurso->plaCur = $request->plaCur;
         $xUpdateCurso->tipCur = $request->tipCur;
         $xUpdateCurso->estCur = $request->estCur;
-        $xUpdateCurso->estMat = $request->estMat;
         
         $xUpdateCurso->save();
         
